@@ -19,22 +19,18 @@ function createCard(date, day, games) {
     `
 }
 
-document.querySelector('#app').innerHTML= `
-    <header>
-        <img src="./assets/logo.svg" alt="Logo da Copa">
-    </header>
-    <main id="cards">
-        ${createCard("24/11", "quinta", 
+document.querySelector('#cards').innerHTML = 
+        createCard("24/11", "quinta", 
         createGame("switzerland", "07:00", "cameroon") + 
         createGame("portugal", "13:00", "ghana") + 
-        createGame("brazil", "16:00", "serbia"))}
-        ${createCard("28/11", "segunda", 
+        createGame("brazil", "16:00", "serbia")) +
+
+        createCard("28/11", "segunda", 
         createGame("korea", "10:00", "ghana") + 
         createGame("brazil", "13:00", "switzerland") + 
-        createGame("portugal", "16:00", "uruguay"))}
-        ${createCard("02/12", "sexta", 
+        createGame("portugal", "16:00", "uruguay")) +
+        
+        createCard("02/12", "sexta", 
         createGame("korea", "07:00", "portugal") + 
         createGame("ghana", "12:00", "uruguay") + 
-        createGame("brazil", "16:00", "cameroon"))}
-    </main>
-`
+        createGame("brazil", "16:00", "cameroon"))
