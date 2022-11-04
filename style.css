@@ -45,13 +45,13 @@ ul {
 }
 
 body {
-    background-color: #121214;
+    /* background-color: #121214;
     background-image: var(--bg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: cover; */
 
-    /* background: #121214 var(--bg) no-repeat top center/cover; */
+    background: #121214 var(--bg) no-repeat top center/cover;
 
 }
 
@@ -164,9 +164,9 @@ header {
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1042px) {
     #cards {
-        max-width: 670px;
+        max-width: 1012px;
         flex-direction: row;
         flex-wrap: wrap;
     }
