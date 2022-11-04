@@ -33,7 +33,7 @@ header {
 
 #cards {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     gap: 32px;
 }
 
@@ -120,5 +120,13 @@ header {
 
     100% {
         opacity: 1;
+    }
+}
+
+@media (min-width: 700px) {
+    #cards {
+        max-width: 1012px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
