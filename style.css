@@ -26,7 +26,7 @@ body.yellow {
     --bg: url(./assets/bg-yellow.svg);  
 }
 
-body.burgundy {
+body.red {
     --card-title-border-color: #9A1032;
     --card-color-primary: #9A1032;
     --card-bg-color: #1D1C19; 
@@ -47,8 +47,12 @@ ul {
 body {
     background-color: #121214;
     background-image: var(--bg);
-    background-position-x: center;
-    background-position-y: -715px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    /* background: #121214 var(--bg) no-repeat top center/cover; */
+
 }
 
 body * {
@@ -57,7 +61,8 @@ body * {
 
 #app {
     width: fit-content;
-    margin: 52px auto;
+    margin: auto;
+    padding-top: 52px;
 }
 
 header { 
@@ -161,7 +166,7 @@ header {
 
 @media (min-width: 700px) {
     #cards {
-        max-width: 1012px;
+        max-width: 670px;
         flex-direction: row;
         flex-wrap: wrap;
     }
