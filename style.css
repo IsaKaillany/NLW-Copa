@@ -52,7 +52,7 @@ body {
     background-size: cover; */
 
     background: #121214 var(--bg) no-repeat top center/cover;
-
+    /* position: relative; */
 }
 
 body * {
@@ -63,6 +63,11 @@ body * {
     width: fit-content;
     margin: auto;
     padding-top: 52px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
 }
 
 header { 
@@ -166,7 +171,7 @@ header {
 
 @media (min-width: 1042px) {
     #cards {
-        max-width: 1012px;
+        max-width: 1360px;
         flex-direction: row;
         flex-wrap: wrap;
     }
