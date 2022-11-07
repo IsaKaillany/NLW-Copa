@@ -45,14 +45,14 @@ ul {
 }
 
 body {
-    /* background-color: #121214;
+    background-color: #121214;
     background-image: var(--bg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover; */
+    background-size: 100%;
+    background-attachment: fixed;
 
-    background: #121214 var(--bg) no-repeat top center/cover;
-    /* position: relative; */
+    /* background: #121214 var(--bg) no-repeat top center/cover; */
 }
 
 body * {
@@ -63,11 +63,6 @@ body * {
     width: fit-content;
     margin: auto;
     padding-top: 52px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 5%;
-    right: 5%;
 }
 
 header { 
