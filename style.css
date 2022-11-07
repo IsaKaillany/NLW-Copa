@@ -149,7 +149,7 @@ header {
 .card h2,
 .card ul li strong,
 .card ul li img {
-    transition: transform 0.3s;
+    transition: transform 0.2s;
 }
 
 .card {
